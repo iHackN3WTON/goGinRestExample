@@ -23,15 +23,15 @@
 
         go run main.go
 
-- Interact with the API with there end point using postman:
+- Interact with the API with these end point using postman:
     - GET /todos
     - POST /todo
         body:
-                {
-                    "title": "any title",
-                    "body": "any body",
-                    "completed": "false"
-                }
+        {
+            "title": "any title",
+            "body": "any body",
+            "completed": "false"
+        }
     - GET /todo/:id
     - PUT /todo/:id
         body:
